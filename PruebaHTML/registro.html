@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="UTF-8">
+        <link rel="stylesheet" src="/PruebaHTML/styles.css">
+        <title>Super Héroes de Marvel</title>
+    </head>
+    <body>
+        <header>
+            <h1><b>Registrar un nuevo Superhéroe</b></h1>
+            <a href="/PruebaHTML/index.html">Home</a>
+            <a href="/PruebaHTML/login.html">Login</a>
+            <a href="/PruebaHTML/heroes.html">Listado de Superhéroes</a>
+            <a href="">Registrar Superhéroe</a>
+        </header>
+        <h1><b>Formulario de registro</b></h1>
+        <fieldset>
+            <legend>Datos del Superhéroe</legend>
+            <form action="/PruebaHTML/registrocorrecto.html" method="post">
+                <label name="nombre">Nombre: </label>
+                <input type="text"><br><br>
+
+                <label name="select-poderes">Selecciona los poderes: </label>
+                <select name="select-poderes">
+                    <option value="vuelo">Vuelo</option>
+                    <option value="sfuerza">Super Fuerza</option>
+                    <option value="invisibilidad">Invisibilidad</option>
+                    <option value="telepatia">Telepatía</option>
+                    <option value="velocidads">Velocidad Sobrehumana</option>
+                    <option value="celementos">Control de elementos</option>
+                    <option value="regeneracion">Regeneración</option>
+                </select><br><br>
+
+                <label name="genero">Género: </label>
+                <input type="radio" name="genero">Masculino
+                <input type="radio" name="genero">Femenino<br><br>
+
+                <label name="habilidades_especiales">Habilidades especiales: </label>
+                <input type="checkbox" name="habilidades_especiales">Vuelo
+                <input type="checkbox" name="habilidades_especiales">Superfuerza
+                <input type="checkbox" name="habilidades_especiales">Invisibilidad<br><br>
+
+                <label name="subir_imagen">Subir imágen: </label>
+                <input type="file"><br><br>
+
+                <label name="descripcion">Descripción detallada: </label>
+                <textarea name="descripcion"></textarea><br><br>
+
+                <input type="submit">
+            </form>
+        </fieldset>
+        <footer>
+            <h2><b>Módulo de Lenguaje de Marcas</b></h2><br>
+            <h3>Profesora: Marta López Martos</h3><br>
+            <h3>Alumno/a: Jesús Morilla Martínez</h3>
+        </footer>
+    </body>
+</html>
